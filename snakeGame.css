@@ -1,0 +1,28 @@
+.header{
+  background: rgb(235, 135, 54);
+  color: white;
+  width: 70vw;
+  height: 10vh;
+}
+.game-container{
+    width: 70vw;
+    height: 60vh;
+    background:rgb(129, 198, 240);
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-container div{
+    width: 22px;
+    height: 22px;
+    background:rgb(230, 250, 190) ;
+
+}
+.snake{
+    background: green !important;
+}
+.food{
+    background: red !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
